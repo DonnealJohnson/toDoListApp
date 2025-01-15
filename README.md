@@ -1,4 +1,4 @@
-# To-Do List Application
+# To-Do List App
 - This To-Do List application allows users to add tasks with a specified start and end time, mark them as complete, and change the background color using a gradient. It is built using HTML, CSS, and JavaScript.
 
 # Features
