@@ -13,4 +13,4 @@
 - JavaScript: For functionality such as adding tasks, completing tasks, and changing the background color.
 
 # Demo: 
-Click link for live demo: 
+Click link for live demo: https://donnealjohnson.github.io/toDoListApp/
