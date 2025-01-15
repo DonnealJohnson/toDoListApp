@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <header>
+        <h1>To-Do List</h1>
+    </header>
+    <main class="todo-container">
+        <div class="todo-input">
+            <input type="text" id="task-name" placeholder="Enter task..." />
+            <input type="datetime-local" id="start-time" placeholder="Start time" />
+            <input type="datetime-local" id="end-time" placeholder="End time" />
+            <button id="add-task">Add Task</button>
+        </div>
+        <ul id="task-list"></ul>
+    </main>
+    <div class="background-generator">
+        <h2>Change Background Color</h2>
+        <input type="color" id="color-picker1" value="#ffffff">
+        <label for="color-picker1">First Color</label>
+        <input type="color" id="color-picker2" value="#000000">
+        <label for="color-picker2">Second Color</label>
+        <button id="apply-gradient">Apply Gradient</button>
+    </div>
+    <footer>
+        <p>&copy; 2025 To-Do List</p>
+    </footer>
+    <script src="script2.js"></script>
+</body>
+</html>
